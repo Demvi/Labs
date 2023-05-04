@@ -1,0 +1,8 @@
+import json
+
+def one():
+    with open ("ddd.json", "rb") as k:
+        h = str(json.load(k))
+    print(h)
+
+one()
